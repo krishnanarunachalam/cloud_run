@@ -1,0 +1,22 @@
+# This file specifies files that are *not* uploaded to Google Cloud when
+# deploying a service. It works similarly to a .gitignore file.
+
+.gcloudignore
+.git
+.gitignore
+
+# Python execution environment
+/env/
+/venv/
+*.pyc
+__pycache__/
+
+# Docker
+Dockerfile
+
+# IDEs
+.idea/
+.vscode/
+
+# Tests
+tests/
